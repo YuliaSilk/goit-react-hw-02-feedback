@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const FeedbackHeader = styled.section `
+export const Feedback = styled.section `
 width: 400px;
 margin: 0 auto;
 border: 5px solid red;

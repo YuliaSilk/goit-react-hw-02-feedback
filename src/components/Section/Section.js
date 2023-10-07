@@ -1,10 +1,10 @@
-import { FeedbackHeader, Tittle } from './Section.styled'
+import { Feedback, Tittle } from './Section.styled'
 
 export const Section = ({ tittle, children}) => {
     return (
-        <FeedbackHeader>
+        <Feedback>
             <Tittle>{tittle}</Tittle>
             {children}
-        </FeedbackHeader>
+        </Feedback>
     )
 }

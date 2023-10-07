@@ -1,4 +1,3 @@
-import { render } from "@testing-library/react";
 import { Component } from "react";
 import { Section } from "./Section/Section";
 import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
@@ -28,7 +27,7 @@ LeaveFeedback = option => {
   this.setState(prevState => ({
     [option]: prevState[option] + 1,
   }));
-}
+};
 
 
 render() {
@@ -37,8 +36,7 @@ render() {
   const positivePercentage = this.countPositiveFeedbackPercentage();
   
   return (
-    <div>
-      <Section tittle='Please leave feedback'>
+    <Section tittle='Please leave feedback'>
       <FeedbackOptions 
         options={Object.keys(this.state)} 
         onLeaveFeedback={this.LeaveFeedback}
@@ -56,23 +54,8 @@ render() {
         />
       )}
       </Section>
-    </div>
-  )
-};
+    
+  );
+}
 
-// export const App = () => {
-//   return (
-//     <div
-//       style={{
-//         height: '100vh',
-//         display: 'flex',
-//         justifyContent: 'center',
-//         alignItems: 'center',
-//         fontSize: 40,
-//         color: '#010101'
-//       }}
-//     >
-//       React homework template
-//     </div>
-//   );
-// };
+

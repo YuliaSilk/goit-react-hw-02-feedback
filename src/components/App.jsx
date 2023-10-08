@@ -55,7 +55,7 @@ render() {
         />
      </Section>
       ) : (
-        <Notification messsage="There is no feedback"/>
+        <Notification message="There is no feedback"/>
       )}
       </div>
   

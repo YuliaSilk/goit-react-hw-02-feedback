@@ -4,6 +4,7 @@ import { FeedbackOptions } from "./FeedbackOptions/FeedbackOptions";
 import { Notification } from "./Notification/Notification";
 import { Statistic } from "./Statistic/Statistic";
 
+
 export class App extends Component {
   state = {
     good: 0,

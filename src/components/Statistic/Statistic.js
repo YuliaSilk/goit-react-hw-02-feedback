@@ -1,4 +1,4 @@
-import { StatContainer, StatTittle, Rating } from './Statistic.styled';
+import { StatContainer, StatTittle, Rating, RatingMath } from './Statistic.styled';
 
 export const Statistic = ({ good, neutral, bad, total, positivePercentage }) => {
     return ( 
@@ -7,8 +7,8 @@ export const Statistic = ({ good, neutral, bad, total, positivePercentage }) => 
             <Rating>Good: {good}</Rating>
             <Rating>Neutral: {neutral}</Rating>
             <Rating>Bad: {bad}</Rating>
-            <p>Total: {total}</p>
-            <p>Positive percentage: {positivePercentage}%</p>
+            <RatingMath>Total: {total}</RatingMath>
+            <RatingMath>Positive percentage: {positivePercentage}%</RatingMath>
         </StatContainer>
     )
 }

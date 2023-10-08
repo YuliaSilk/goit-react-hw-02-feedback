@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export  const Notify = styled.p`
-  color: #EEEAED;
+  color: #4a1737;
   font-size: 14px;
   font-weight: 600;
   line-height: 1.5; 

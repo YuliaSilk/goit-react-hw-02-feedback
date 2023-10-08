@@ -7,8 +7,8 @@ export const Statistic = ({ good, neutral, bad, total, positivePercentage }) => 
             <Rating>Good: {good}</Rating>
             <Rating>Neutral: {neutral}</Rating>
             <Rating>Bad: {bad}</Rating>
-            <Rating>Total: {total}</Rating>
-            <Rating>Positive percentage: {positivePercentage}%</Rating>
+            <p>Total: {total}</p>
+            <p>Positive percentage: {positivePercentage}%</p>
         </StatContainer>
     )
 }
